@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lire l'actualité sur le site"
+        android:width="@dimen/dialog_fixed_width_major" />
+
+</LinearLayout>
